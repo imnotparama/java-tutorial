@@ -6,13 +6,17 @@ public class keyboard_input {
         int b;
         int c;
 
-        Scanner console = new Scanner(System.in);
+        Scanner obj = new Scanner(System.in);
+
         System.out.print("Enter the val of A : ");
-        a = console.nextInt();
+        a = obj.nextInt();
+
         System.out.print("Enter the val of B : ");
-        b = console.nextInt();
+        b = obj.nextInt();
+
         c = a + b;
         System.out.println("The sum of A and B is " + c);
-    }
 
+        obj.close();    // Close the scanner
+    }
 }
