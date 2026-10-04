@@ -1,4 +1,4 @@
-class super_ex {
+class super_example{
     String Fav_fruit = "Apple";
 
     void display() {
@@ -6,7 +6,7 @@ class super_ex {
     }
 }
 
-class abc extends super_ex {
+class abc extends super_example {
         String Fav_fruit = "Orange";
 
         void display() {
