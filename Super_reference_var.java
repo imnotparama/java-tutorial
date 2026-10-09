@@ -7,7 +7,8 @@ class super_example{
 }
 
 class abc extends super_example {
-        String Fav_fruit = "Orange";
+        String Fav_fruit = "orange";
+
 
         void display() {
             System.out.println("Fav Fruit:  Child class " + Fav_fruit + " Super class " + super.Fav_fruit);//prints the parent class variable
